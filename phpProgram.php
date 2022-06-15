@@ -5,6 +5,7 @@ $user="root";
 $pass="";
 $db="newdb";
 
+//------------connection establishement-------------------
 $con=mysqli_connect($server,$user,$pass,$db);
 if(!$con){
     die("connection not established".mysqli_connect_error());
